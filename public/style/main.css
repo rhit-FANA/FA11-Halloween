@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('spooky-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #af1111;
+    text-align: center;
+    margin: 20px;
+}
+ 
+h1 {
+    text-align: center;
+}
+ 
+#books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
